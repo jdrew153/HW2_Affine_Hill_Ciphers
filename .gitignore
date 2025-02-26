@@ -7,3 +7,4 @@ test-hill
 /.vscode/
 .DS_Store
 main.dSYM
+main
