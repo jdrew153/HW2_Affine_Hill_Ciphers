@@ -52,18 +52,18 @@ In the utils folder, there are some helper functions for solving Linear Congruen
 
  # Project Structure
 
-.
-+-- src
-|   +-- AffineCipher.cpp
-|   +-- AffineCipher.h
-|   +-- Cipher.cpp 
-|   +-- Cipher.h
-|   +-- HillCipher.cpp
-|   +-- HillCipher.h
-+-- utils
-|   +-- LinearCongruence.cpp
-|   +-- LinearCongruence.h
-|   +-- Matrix.h
-+-- main.cpp
-+-- Makefile
-+-- README.md (this file)
+ ┣ 📂src
+ ┃ ┣ 📜AffineCipher.cpp
+ ┃ ┣ 📜AffineCipher.h
+ ┃ ┣ 📜Cipher.cpp
+ ┃ ┣ 📜Cipher.h
+ ┃ ┣ 📜HillCipher.cpp
+ ┃ ┗ 📜HillCipher.h
+ ┣ 📂utils
+ ┃ ┣ 📜LinearCongruence.cpp
+ ┃ ┣ 📜LinearCongruence.h
+ ┃ ┗ 📜Matrix.h
+ ┣ 📜.gitignore
+ ┣ 📜Makefile
+ ┣ 📜README.md
+ ┣ 📜main.cpp
