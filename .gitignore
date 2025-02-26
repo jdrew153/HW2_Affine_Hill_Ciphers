@@ -1,0 +1,9 @@
+hill-cipher
+affine-cipher
+*.txt
+test-affine
+test-hill
+*.json
+/.vscode/
+.DS_Store
+main.dSYM
