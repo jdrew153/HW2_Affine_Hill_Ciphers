@@ -35,16 +35,6 @@ std::string AffineCipher::DecryptManual(const CharacterMapping &mapping)
         mappedValues[e] = decryptedLetter;
     }
 
-    std::ofstream outSolution("affine-solution-mappings.txt");
-
-    for (const auto &[enc, dec] : mappedValues)
-    {
-        outSolution << enc;
-        outSolution << " - ";
-        outSolution << dec;
-        outSolution << "\n\n";
-    }
-
     return decryptedCipher;
 }
 
