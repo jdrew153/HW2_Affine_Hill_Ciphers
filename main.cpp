@@ -8,6 +8,7 @@
 #include <cstdio>
 #include <iostream>
 #include <numeric>
+#include <filesystem>
 #include <optional>
 #include <fstream>
 
@@ -127,7 +128,7 @@ retry:
 
     if (std::filesystem::exists(cipherPath))
     {
-      std::ifstream cipherFile(cipherPath);
+      std::ifstream cipherFile(inputPath);
 
       if (!cipherFile.is_open())
       {
